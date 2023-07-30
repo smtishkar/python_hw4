@@ -21,7 +21,7 @@ START_MINIMUM_LIMIT = 50
 ADDITIONAL_RATE_PERIOD = 3
 
 
-def logging(logs:list, money:int, action:str) -> list:
+def logging(logs: list, money: int, action: str) -> list:
     time = str(datetime.datetime.now())
     if action == "+":
         logs.append(('+', money, time))
